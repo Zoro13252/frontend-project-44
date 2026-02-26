@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "MindGame",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Zoro13252/frontend-project-44.git"
+  },
+  "author": "Sherzod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zoro13252/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/Zoro13252/frontend-project-44#readme",
+  "type": "module",
+  "bin": {
+  "brain-games": "./bin/brain-games.js"
+}
+}
