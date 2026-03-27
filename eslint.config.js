@@ -12,14 +12,15 @@ export default [
     rules: {
       ...pluginJs.configs.recommended.rules,
 
-      'semi': ['error', 'never'],
+      'semi': ['error', 'never'],           // Без точек с запятой — главное правило Hexlet
       'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
       'eol-last': ['error', 'always'],
       'quotes': ['error', 'single'],
       'no-unused-vars': 'warn',
       'no-console': 'off',
       'no-trailing-spaces': 'error',
-      'comma-dangle': ['error', 'never']
+      'comma-dangle': ['error', 'never'],
+      'object-curly-spacing': ['error', 'always']
     }
   }
 ]

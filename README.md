@@ -14,7 +14,7 @@
 
 Поиск наибольшего общего делителя (НОД) двух чисел.
 
-[![asciicast](https://asciinema.org/a/iHEnYxe4OkmSMGek.svg)](https://asciinema.org/a/iHEnYxe4OkmSMGek)
+[![asciicast](https://asciinema.org/a/aocewSYb6RpajoJ8.svg)](https://asciinema.org/a/aocewSYb6RpajoJ8)
 
 ## Brain-progression
 
