@@ -1,26 +1,14 @@
-// eslint.config.js
+import js from '@eslint/js'
 import globals from 'globals'
-import pluginJs from '@eslint/js'
+import { defineConfig } from 'eslint/config'
+import stylistic from '@stylistic/eslint-plugin'
 
-export default [
+export default defineConfig([
+  stylistic.configs.recommended,
   {
-    files: ['**/*.js'],
-    languageOptions: {
-      sourceType: 'module',
-      globals: globals.node
-    },
-    rules: {
-      ...pluginJs.configs.recommended.rules,
-
-      'semi': ['error', 'never'],           // Без точек с запятой — главное правило Hexlet
-      'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
-      'eol-last': ['error', 'always'],
-      'quotes': ['error', 'single'],
-      'no-unused-vars': 'warn',
-      'no-console': 'off',
-      'no-trailing-spaces': 'error',
-      'comma-dangle': ['error', 'never'],
-      'object-curly-spacing': ['error', 'always']
-    }
-  }
-]
+    files: ['**/*.{js,mjs,cjs}'],
+    plugins: { js },
+    extends: ['js/recommended'],
+    languageOptions: { globals: globals.node },
+  },
+])
