@@ -16,13 +16,10 @@ export default [
       'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
       'eol-last': ['error', 'always'],
       'quotes': ['error', 'single'],
-      'no-unused-vars': ['warn'],
+      'no-unused-vars': 'warn',
       'no-console': 'off',
-
-
       'no-trailing-spaces': 'error',
-      'comma-dangle': ['error', 'never'],
-      'object-curly-spacing': ['error', 'always']
+      'comma-dangle': ['error', 'never']
     }
   }
 ]
