@@ -1,7 +1,7 @@
 import { runGame } from '../index.js'
 
 const MIN_NUMBER = 1
-const MAX_NUMBER = 25 // чтобы ответы не были слишком большими
+const MAX_NUMBER = 99 // чтобы ответы не были слишком большими
 
 const OPERATORS = ['+', '-', '*']
 
